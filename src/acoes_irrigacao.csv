@@ -1,0 +1,869 @@
+id,leitura_id,decidido_em,rele_ativado,codigo_acao,mensagem
+1,1,2024-01-01 08:35:50,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+2,2,2024-01-02 08:21:23,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+3,3,2024-01-03 08:40:02,False,9,Chuva prevista de 4.4mm supre demanda hídrica da cultura. Irrigação suspensa
+4,4,2024-01-04 08:18:07,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+5,5,2024-01-05 08:24:51,True,12,Condições favoráveis! Irrigação acionada
+6,6,2024-01-06 08:14:29,True,12,Condições favoráveis! Irrigação acionada
+7,7,2024-01-07 08:37:47,False,2,"Solo em condições ideais, irrigação desnecessária"
+8,8,2024-01-08 08:27:54,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+9,9,2024-01-09 08:22:36,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+10,10,2024-01-10 08:41:31,True,12,Condições favoráveis! Irrigação acionada
+11,11,2024-01-11 08:24:10,True,12,Condições favoráveis! Irrigação acionada
+12,12,2024-01-12 08:36:07,False,2,"Solo em condições ideais, irrigação desnecessária"
+13,13,2024-01-13 08:26:39,False,2,"Solo em condições ideais, irrigação desnecessária"
+14,14,2024-01-14 08:04:52,True,12,Condições favoráveis! Irrigação acionada
+15,15,2024-01-15 08:30:21,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+16,16,2024-01-16 08:06:17,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+17,17,2024-01-17 08:35:36,True,12,Condições favoráveis! Irrigação acionada
+18,18,2024-01-18 08:26:29,False,1,"Umidade acima de 80%, irrigação suspensa"
+19,19,2024-01-19 08:10:19,False,9,Chuva prevista de 5.3mm supre demanda hídrica da cultura. Irrigação suspensa
+20,20,2024-01-20 08:11:23,False,1,"Umidade acima de 80%, irrigação suspensa"
+21,21,2024-01-21 08:26:48,False,9,Chuva prevista de 4.0mm supre demanda hídrica da cultura. Irrigação suspensa
+22,22,2024-01-22 08:22:13,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+23,23,2024-01-23 08:23:46,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+24,24,2024-01-24 08:09:42,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+25,25,2024-01-25 08:04:17,True,12,Condições favoráveis! Irrigação acionada
+26,26,2024-01-26 08:35:56,False,1,"Umidade acima de 80%, irrigação suspensa"
+27,27,2024-01-27 08:03:28,False,1,"Umidade acima de 80%, irrigação suspensa"
+28,28,2024-01-28 08:16:55,False,2,"Solo em condições ideais, irrigação desnecessária"
+29,29,2024-01-29 08:12:08,False,1,"Umidade acima de 80%, irrigação suspensa"
+30,30,2024-01-30 08:14:39,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+31,31,2024-01-31 08:16:14,False,9,Chuva prevista de 5.9mm supre demanda hídrica da cultura. Irrigação suspensa
+32,32,2024-02-01 08:36:35,False,1,"Umidade acima de 80%, irrigação suspensa"
+33,33,2024-02-02 08:22:36,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+34,34,2024-02-03 08:27:28,False,1,"Umidade acima de 80%, irrigação suspensa"
+35,35,2024-02-04 08:30:06,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+36,36,2024-02-05 08:21:27,True,12,Condições favoráveis! Irrigação acionada
+37,37,2024-02-06 08:41:06,False,1,"Umidade acima de 80%, irrigação suspensa"
+38,38,2024-02-07 08:28:00,False,2,"Solo em condições ideais, irrigação desnecessária"
+39,39,2024-02-08 08:28:55,False,1,"Umidade acima de 80%, irrigação suspensa"
+40,40,2024-02-09 08:40:31,False,1,"Umidade acima de 80%, irrigação suspensa"
+41,41,2024-02-10 08:10:36,False,2,"Solo em condições ideais, irrigação desnecessária"
+42,42,2024-02-11 08:02:09,False,2,"Solo em condições ideais, irrigação desnecessária"
+43,43,2024-02-12 08:15:19,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+44,44,2024-02-13 08:40:21,False,2,"Solo em condições ideais, irrigação desnecessária"
+45,45,2024-02-14 08:25:37,False,2,"Solo em condições ideais, irrigação desnecessária"
+46,46,2024-02-15 08:03:24,False,1,"Umidade acima de 80%, irrigação suspensa"
+47,47,2024-02-16 08:38:46,True,12,Condições favoráveis! Irrigação acionada
+48,48,2024-02-17 08:25:26,False,1,"Umidade acima de 80%, irrigação suspensa"
+49,49,2024-02-18 08:03:33,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+50,50,2024-02-19 08:30:03,False,1,"Umidade acima de 80%, irrigação suspensa"
+51,51,2024-02-20 08:16:44,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+52,52,2024-02-21 08:31:26,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+53,53,2024-02-22 08:16:57,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+54,54,2024-02-23 08:36:13,False,1,"Umidade acima de 80%, irrigação suspensa"
+55,55,2024-02-24 08:12:35,False,1,"Umidade acima de 80%, irrigação suspensa"
+56,56,2024-02-25 08:12:41,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+57,57,2024-02-26 08:31:19,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+58,58,2024-02-27 08:04:25,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+59,59,2024-02-28 08:28:46,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+60,60,2024-02-29 08:05:21,False,1,"Umidade acima de 80%, irrigação suspensa"
+61,61,2024-03-01 08:15:07,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+62,62,2024-03-02 08:10:31,False,1,"Umidade acima de 80%, irrigação suspensa"
+63,63,2024-03-03 08:28:37,False,1,"Umidade acima de 80%, irrigação suspensa"
+64,64,2024-03-04 08:02:28,False,1,"Umidade acima de 80%, irrigação suspensa"
+65,65,2024-03-05 08:05:43,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+66,66,2024-03-06 08:35:34,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+67,67,2024-03-07 08:23:54,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+68,68,2024-03-08 08:41:29,False,1,"Umidade acima de 80%, irrigação suspensa"
+69,69,2024-03-09 08:19:10,False,1,"Umidade acima de 80%, irrigação suspensa"
+70,70,2024-03-10 08:09:56,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+71,71,2024-03-11 08:10:52,False,1,"Umidade acima de 80%, irrigação suspensa"
+72,72,2024-03-12 08:15:43,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+73,73,2024-03-13 08:37:44,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+74,74,2024-03-14 08:31:40,False,1,"Umidade acima de 80%, irrigação suspensa"
+75,75,2024-03-15 08:34:50,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+76,76,2024-03-16 08:06:57,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+77,77,2024-03-17 08:12:33,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+78,78,2024-03-18 08:30:34,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+79,79,2024-03-19 08:31:36,False,1,"Umidade acima de 80%, irrigação suspensa"
+80,80,2024-03-20 08:05:23,False,1,"Umidade acima de 80%, irrigação suspensa"
+81,81,2024-03-21 08:08:52,False,1,"Umidade acima de 80%, irrigação suspensa"
+82,82,2024-03-22 08:27:31,False,1,"Umidade acima de 80%, irrigação suspensa"
+83,83,2024-03-23 08:23:15,False,1,"Umidade acima de 80%, irrigação suspensa"
+84,84,2024-03-24 08:23:29,False,1,"Umidade acima de 80%, irrigação suspensa"
+85,85,2024-03-25 08:02:50,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+86,86,2024-03-26 08:08:36,False,1,"Umidade acima de 80%, irrigação suspensa"
+87,87,2024-03-27 08:10:19,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+88,88,2024-03-28 08:24:08,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+89,89,2024-03-29 08:41:29,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+90,90,2024-03-30 08:14:58,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+91,91,2024-03-31 08:24:14,False,1,"Umidade acima de 80%, irrigação suspensa"
+92,92,2024-04-01 08:24:46,False,1,"Umidade acima de 80%, irrigação suspensa"
+93,93,2024-04-02 08:28:14,False,1,"Umidade acima de 80%, irrigação suspensa"
+94,94,2024-04-03 08:21:54,False,1,"Umidade acima de 80%, irrigação suspensa"
+95,95,2024-04-04 08:29:40,False,1,"Umidade acima de 80%, irrigação suspensa"
+96,96,2024-04-05 08:30:14,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+97,97,2024-04-06 08:28:27,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+98,98,2024-04-07 08:23:01,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+99,99,2024-04-08 08:17:44,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+100,100,2024-04-09 08:40:55,False,1,"Umidade acima de 80%, irrigação suspensa"
+101,101,2024-04-10 08:39:40,False,1,"Umidade acima de 80%, irrigação suspensa"
+102,102,2024-04-11 08:18:54,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+103,103,2024-04-12 08:20:37,False,1,"Umidade acima de 80%, irrigação suspensa"
+104,104,2024-04-13 08:03:42,False,1,"Umidade acima de 80%, irrigação suspensa"
+105,105,2024-04-14 08:23:48,False,1,"Umidade acima de 80%, irrigação suspensa"
+106,106,2024-04-15 08:05:02,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+107,107,2024-04-16 08:11:14,False,1,"Umidade acima de 80%, irrigação suspensa"
+108,108,2024-04-17 08:41:45,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+109,109,2024-04-18 08:02:56,False,1,"Umidade acima de 80%, irrigação suspensa"
+110,110,2024-04-19 08:03:53,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+111,111,2024-04-20 08:12:03,False,1,"Umidade acima de 80%, irrigação suspensa"
+112,112,2024-04-21 08:38:24,False,1,"Umidade acima de 80%, irrigação suspensa"
+113,113,2024-04-22 08:38:18,False,1,"Umidade acima de 80%, irrigação suspensa"
+114,114,2024-04-23 08:22:12,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+115,115,2024-04-24 08:31:46,False,1,"Umidade acima de 80%, irrigação suspensa"
+116,116,2024-04-25 08:40:22,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+117,117,2024-04-26 08:40:29,False,2,"Solo em condições ideais, irrigação desnecessária"
+118,118,2024-04-27 08:37:04,False,1,"Umidade acima de 80%, irrigação suspensa"
+119,119,2024-04-28 08:37:16,False,2,"Solo em condições ideais, irrigação desnecessária"
+120,120,2024-04-29 08:15:49,False,1,"Umidade acima de 80%, irrigação suspensa"
+121,121,2024-04-30 08:10:25,False,2,"Solo em condições ideais, irrigação desnecessária"
+122,122,2024-05-01 08:10:29,False,1,"Umidade acima de 80%, irrigação suspensa"
+123,123,2024-05-02 08:32:27,False,1,"Umidade acima de 80%, irrigação suspensa"
+124,124,2024-05-03 08:06:04,False,1,"Umidade acima de 80%, irrigação suspensa"
+125,125,2024-05-04 08:01:42,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+126,126,2024-05-05 08:13:01,False,2,"Solo em condições ideais, irrigação desnecessária"
+127,127,2024-05-06 08:03:26,False,1,"Umidade acima de 80%, irrigação suspensa"
+128,128,2024-05-07 08:21:31,False,1,"Umidade acima de 80%, irrigação suspensa"
+129,129,2024-05-08 08:05:55,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+130,130,2024-05-09 08:27:27,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+131,131,2024-05-10 08:23:54,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+132,132,2024-05-11 08:25:59,False,1,"Umidade acima de 80%, irrigação suspensa"
+133,133,2024-05-12 08:02:10,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+134,134,2024-05-13 08:32:42,False,1,"Umidade acima de 80%, irrigação suspensa"
+135,135,2024-05-14 08:35:15,False,1,"Umidade acima de 80%, irrigação suspensa"
+136,136,2024-05-15 08:09:34,False,1,"Umidade acima de 80%, irrigação suspensa"
+137,137,2024-05-16 08:33:37,False,9,Chuva prevista de 9.2mm supre demanda hídrica da cultura. Irrigação suspensa
+138,138,2024-05-17 08:36:32,False,1,"Umidade acima de 80%, irrigação suspensa"
+139,139,2024-05-18 08:34:48,False,1,"Umidade acima de 80%, irrigação suspensa"
+140,140,2024-05-19 08:38:56,True,12,Condições favoráveis! Irrigação acionada
+141,141,2024-05-20 08:37:28,False,1,"Umidade acima de 80%, irrigação suspensa"
+142,142,2024-05-21 08:30:14,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+143,143,2024-05-22 08:24:07,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+144,144,2024-05-23 08:17:08,False,2,"Solo em condições ideais, irrigação desnecessária"
+145,145,2024-05-24 08:25:36,False,1,"Umidade acima de 80%, irrigação suspensa"
+146,146,2024-05-25 08:02:24,False,9,Chuva prevista de 4.7mm supre demanda hídrica da cultura. Irrigação suspensa
+147,147,2024-05-26 08:29:05,True,12,Condições favoráveis! Irrigação acionada
+148,148,2024-05-27 08:25:18,False,1,"Umidade acima de 80%, irrigação suspensa"
+149,149,2024-05-28 08:40:31,False,1,"Umidade acima de 80%, irrigação suspensa"
+150,150,2024-05-29 08:02:00,False,1,"Umidade acima de 80%, irrigação suspensa"
+151,151,2024-05-30 08:39:01,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+152,152,2024-05-31 08:37:30,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+153,153,2024-06-01 08:08:50,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+154,154,2024-06-02 08:17:19,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+155,155,2024-06-03 08:36:57,False,1,"Umidade acima de 80%, irrigação suspensa"
+156,156,2024-06-04 08:09:41,False,1,"Umidade acima de 80%, irrigação suspensa"
+157,157,2024-06-05 08:07:40,False,1,"Umidade acima de 80%, irrigação suspensa"
+158,158,2024-06-06 08:08:03,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+159,159,2024-06-07 08:06:17,False,1,"Umidade acima de 80%, irrigação suspensa"
+160,160,2024-06-08 08:26:57,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+161,161,2024-06-09 08:34:58,False,1,"Umidade acima de 80%, irrigação suspensa"
+162,162,2024-06-10 08:12:07,False,1,"Umidade acima de 80%, irrigação suspensa"
+163,163,2024-06-11 08:11:24,False,1,"Umidade acima de 80%, irrigação suspensa"
+164,164,2024-06-12 08:18:04,False,1,"Umidade acima de 80%, irrigação suspensa"
+165,165,2024-06-13 08:19:04,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+166,166,2024-06-14 08:36:15,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+167,167,2024-06-15 08:37:04,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+168,168,2024-06-16 08:33:48,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+169,169,2024-06-17 08:37:32,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+170,170,2024-06-18 08:26:45,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+171,171,2024-06-19 08:35:15,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+172,172,2024-06-20 08:14:38,False,1,"Umidade acima de 80%, irrigação suspensa"
+173,173,2024-06-21 08:05:18,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+174,174,2024-06-22 08:04:18,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+175,175,2024-06-23 08:14:29,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+176,176,2024-06-24 08:26:09,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+177,177,2024-06-25 08:04:19,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+178,178,2024-06-26 08:35:51,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+179,179,2024-06-27 08:21:24,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+180,180,2024-06-28 08:13:42,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+181,181,2024-06-29 08:31:37,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+182,182,2024-06-30 08:38:28,False,1,"Umidade acima de 80%, irrigação suspensa"
+183,183,2024-07-01 08:32:02,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+184,184,2024-07-02 08:03:03,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+185,185,2024-07-03 08:40:31,False,1,"Umidade acima de 80%, irrigação suspensa"
+186,186,2024-07-04 08:29:06,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+187,187,2024-07-05 08:29:49,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+188,188,2024-07-06 08:30:16,False,2,"Solo em condições ideais, irrigação desnecessária"
+189,189,2024-07-07 08:37:35,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+190,190,2024-07-08 08:09:59,False,1,"Umidade acima de 80%, irrigação suspensa"
+191,191,2024-07-09 08:06:43,False,2,"Solo em condições ideais, irrigação desnecessária"
+192,192,2024-07-10 08:20:20,True,12,Condições favoráveis! Irrigação acionada
+193,193,2024-07-11 08:16:04,False,2,"Solo em condições ideais, irrigação desnecessária"
+194,194,2024-07-12 08:29:50,True,12,Condições favoráveis! Irrigação acionada
+195,195,2024-07-13 08:25:03,True,12,Condições favoráveis! Irrigação acionada
+196,196,2024-07-14 08:09:30,True,12,Condições favoráveis! Irrigação acionada
+197,197,2024-07-15 08:12:53,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+198,198,2024-07-16 08:38:44,False,9,Chuva prevista de 9.6mm supre demanda hídrica da cultura. Irrigação suspensa
+199,199,2024-07-17 08:21:34,True,12,Condições favoráveis! Irrigação acionada
+200,200,2024-07-18 08:14:48,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+201,201,2024-07-19 08:25:01,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+202,202,2024-07-20 08:35:08,True,12,Condições favoráveis! Irrigação acionada
+203,203,2024-07-21 08:28:18,True,12,Condições favoráveis! Irrigação acionada
+204,204,2024-07-22 08:38:12,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+205,205,2024-07-23 08:14:15,True,12,Condições favoráveis! Irrigação acionada
+206,206,2024-07-24 08:07:37,True,12,Condições favoráveis! Irrigação acionada
+207,207,2024-07-25 08:28:53,False,2,"Solo em condições ideais, irrigação desnecessária"
+208,208,2024-07-26 08:06:02,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+209,209,2024-07-27 08:37:57,False,2,"Solo em condições ideais, irrigação desnecessária"
+210,210,2024-07-28 08:08:14,False,2,"Solo em condições ideais, irrigação desnecessária"
+211,211,2024-07-29 08:12:44,True,12,Condições favoráveis! Irrigação acionada
+212,212,2024-07-30 08:25:35,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+213,213,2024-07-31 08:34:36,False,9,Chuva prevista de 4.6mm supre demanda hídrica da cultura. Irrigação suspensa
+214,214,2024-08-01 08:24:08,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+215,215,2024-08-02 08:23:26,False,9,Chuva prevista de 11.2mm supre demanda hídrica da cultura. Irrigação suspensa
+216,216,2024-08-03 08:40:38,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+217,217,2024-08-04 08:18:40,True,12,Condições favoráveis! Irrigação acionada
+218,218,2024-08-05 08:08:20,False,2,"Solo em condições ideais, irrigação desnecessária"
+219,219,2024-08-06 08:06:43,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+220,220,2024-08-07 08:30:53,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+221,221,2024-08-08 08:37:26,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+222,222,2024-08-09 08:29:47,True,12,Condições favoráveis! Irrigação acionada
+223,223,2024-08-10 08:24:13,False,2,"Solo em condições ideais, irrigação desnecessária"
+224,224,2024-08-11 08:08:40,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+225,225,2024-08-12 08:06:18,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+226,226,2024-08-13 08:02:02,False,2,"Solo em condições ideais, irrigação desnecessária"
+227,227,2024-08-14 08:37:56,True,12,Condições favoráveis! Irrigação acionada
+228,228,2024-08-15 08:02:26,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+229,229,2024-08-16 08:15:42,True,12,Condições favoráveis! Irrigação acionada
+230,230,2024-08-17 08:34:50,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+231,231,2024-08-18 08:33:34,True,12,Condições favoráveis! Irrigação acionada
+232,232,2024-08-19 08:09:46,True,12,Condições favoráveis! Irrigação acionada
+233,233,2024-08-20 08:08:37,True,12,Condições favoráveis! Irrigação acionada
+234,234,2024-08-21 08:34:23,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+235,235,2024-08-22 08:17:23,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+236,236,2024-08-23 08:38:11,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+237,237,2024-08-24 08:36:56,True,12,Condições favoráveis! Irrigação acionada
+238,238,2024-08-25 08:33:13,True,12,Condições favoráveis! Irrigação acionada
+239,239,2024-08-26 08:01:35,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+240,240,2024-08-27 08:35:07,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+241,241,2024-08-28 08:20:22,True,12,Condições favoráveis! Irrigação acionada
+242,242,2024-08-29 08:34:42,True,12,Condições favoráveis! Irrigação acionada
+243,243,2024-08-30 08:16:21,True,12,Condições favoráveis! Irrigação acionada
+244,244,2024-08-31 08:37:40,True,12,Condições favoráveis! Irrigação acionada
+245,245,2024-09-01 08:20:55,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+246,246,2024-09-02 08:20:11,True,12,Condições favoráveis! Irrigação acionada
+247,247,2024-09-03 08:14:35,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+248,248,2024-09-04 08:13:12,True,12,Condições favoráveis! Irrigação acionada
+249,249,2024-09-05 08:31:16,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+250,250,2024-09-06 08:19:58,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+251,251,2024-09-07 08:25:48,True,12,Condições favoráveis! Irrigação acionada
+252,252,2024-09-08 08:17:51,True,12,Condições favoráveis! Irrigação acionada
+253,253,2024-09-09 08:15:33,True,12,Condições favoráveis! Irrigação acionada
+254,254,2024-09-10 08:37:56,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+255,255,2024-09-11 08:39:16,True,12,Condições favoráveis! Irrigação acionada
+256,256,2024-09-12 08:03:10,True,12,Condições favoráveis! Irrigação acionada
+257,257,2024-09-13 08:21:37,True,12,Condições favoráveis! Irrigação acionada
+258,258,2024-09-14 08:41:16,True,12,Condições favoráveis! Irrigação acionada
+259,259,2024-09-15 08:37:27,True,12,Condições favoráveis! Irrigação acionada
+260,260,2024-09-16 08:22:35,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+261,261,2024-09-17 08:06:56,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+262,262,2024-09-18 08:31:44,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+263,263,2024-09-19 08:24:56,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+264,264,2024-09-20 08:27:26,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+265,265,2024-09-21 08:36:27,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+266,266,2024-09-22 08:40:45,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+267,267,2024-09-23 08:11:55,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+268,268,2024-09-24 08:35:37,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+269,269,2024-09-25 08:06:25,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+270,270,2024-09-26 08:11:30,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+271,271,2024-09-27 08:05:02,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+272,272,2024-09-28 08:26:33,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+273,273,2024-09-29 08:26:54,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+274,274,2024-09-30 08:22:46,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+275,275,2024-10-01 08:14:42,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+276,276,2024-10-02 08:26:59,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+277,277,2024-10-03 08:12:11,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+278,278,2024-10-04 08:26:53,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+279,279,2024-10-05 08:05:33,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+280,280,2024-10-06 08:32:10,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+281,281,2024-10-07 08:18:53,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+282,282,2024-10-08 08:24:47,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+283,283,2024-10-09 08:19:16,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+284,284,2024-10-10 08:31:32,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+285,285,2024-10-11 08:23:05,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+286,286,2024-10-12 08:12:07,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+287,287,2024-10-13 08:04:50,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+288,288,2024-10-14 08:10:13,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+289,289,2024-10-15 08:21:44,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+290,290,2024-10-16 08:28:10,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+291,291,2024-10-17 08:16:08,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+292,292,2024-10-18 08:33:48,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+293,293,2024-10-19 08:08:37,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+294,294,2024-10-20 08:04:29,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+295,295,2024-10-21 08:40:03,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+296,296,2024-10-22 08:08:10,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+297,297,2024-10-23 08:30:57,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+298,298,2024-10-24 08:07:58,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+299,299,2024-10-25 08:07:45,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+300,300,2024-10-26 08:06:20,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+301,301,2024-10-27 08:05:08,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+302,302,2024-10-28 08:09:57,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+303,303,2024-10-29 08:22:38,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+304,304,2024-10-30 08:36:19,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+305,305,2024-10-31 08:03:59,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+306,306,2024-11-01 08:08:11,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+307,307,2024-11-02 08:29:51,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+308,308,2024-11-03 08:07:16,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+309,309,2024-11-04 08:27:23,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+310,310,2024-11-05 08:04:11,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+311,311,2024-11-06 08:37:40,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+312,312,2024-11-07 08:21:15,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+313,313,2024-11-08 08:32:29,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+314,314,2024-11-09 08:08:54,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+315,315,2024-11-10 08:35:35,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+316,316,2024-11-11 08:19:47,True,12,Condições favoráveis! Irrigação acionada
+317,317,2024-11-12 08:36:31,True,12,Condições favoráveis! Irrigação acionada
+318,318,2024-11-13 08:21:45,True,12,Condições favoráveis! Irrigação acionada
+319,319,2024-11-14 08:38:35,True,12,Condições favoráveis! Irrigação acionada
+320,320,2024-11-15 08:27:27,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+321,321,2024-11-16 08:41:01,True,12,Condições favoráveis! Irrigação acionada
+322,322,2024-11-17 08:32:23,True,12,Condições favoráveis! Irrigação acionada
+323,323,2024-11-18 08:00:33,True,12,Condições favoráveis! Irrigação acionada
+324,324,2024-11-19 08:07:35,True,12,Condições favoráveis! Irrigação acionada
+325,325,2024-11-20 08:06:25,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+326,326,2024-11-21 08:06:24,True,12,Condições favoráveis! Irrigação acionada
+327,327,2024-11-22 08:04:40,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+328,328,2024-11-23 08:34:33,True,12,Condições favoráveis! Irrigação acionada
+329,329,2024-11-24 08:29:18,True,12,Condições favoráveis! Irrigação acionada
+330,330,2024-11-25 08:09:37,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+331,331,2024-11-26 08:06:34,True,12,Condições favoráveis! Irrigação acionada
+332,332,2024-11-27 08:16:46,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+333,333,2024-11-28 08:14:03,True,12,Condições favoráveis! Irrigação acionada
+334,334,2024-11-29 08:22:58,True,12,Condições favoráveis! Irrigação acionada
+335,335,2024-11-30 08:18:01,True,12,Condições favoráveis! Irrigação acionada
+336,336,2024-12-01 08:07:15,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+337,337,2024-12-02 08:37:38,True,12,Condições favoráveis! Irrigação acionada
+338,338,2024-12-03 08:38:42,True,12,Condições favoráveis! Irrigação acionada
+339,339,2024-12-04 08:09:55,True,12,Condições favoráveis! Irrigação acionada
+340,340,2024-12-05 08:15:21,True,12,Condições favoráveis! Irrigação acionada
+341,341,2024-12-06 08:42:08,True,12,Condições favoráveis! Irrigação acionada
+342,342,2024-12-07 08:17:33,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+343,343,2024-12-08 08:33:24,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+344,344,2024-12-09 08:31:06,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+345,345,2024-12-10 08:12:02,True,12,Condições favoráveis! Irrigação acionada
+346,346,2024-12-11 08:32:23,True,12,Condições favoráveis! Irrigação acionada
+347,347,2024-12-12 08:39:20,True,12,Condições favoráveis! Irrigação acionada
+348,348,2024-12-13 08:12:03,True,12,Condições favoráveis! Irrigação acionada
+349,349,2024-12-14 08:28:09,True,12,Condições favoráveis! Irrigação acionada
+350,350,2024-12-15 08:36:59,True,12,Condições favoráveis! Irrigação acionada
+351,351,2024-12-16 08:25:00,True,12,Condições favoráveis! Irrigação acionada
+352,352,2024-12-17 08:40:45,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+353,353,2024-12-18 08:27:12,True,12,Condições favoráveis! Irrigação acionada
+354,354,2024-12-19 08:36:20,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+355,355,2024-12-20 08:06:39,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+356,356,2024-12-21 08:41:14,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+357,357,2024-12-22 08:00:22,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+358,358,2024-12-23 08:36:02,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+359,359,2024-12-24 08:33:19,False,9,Chuva prevista de 7.5mm supre demanda hídrica da cultura. Irrigação suspensa
+360,360,2024-12-25 08:32:11,True,12,Condições favoráveis! Irrigação acionada
+361,361,2024-12-26 08:16:06,False,9,Chuva prevista de 5.4mm supre demanda hídrica da cultura. Irrigação suspensa
+362,362,2024-12-27 08:04:50,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+363,363,2024-12-28 08:16:25,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+364,364,2024-12-29 08:01:59,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+365,365,2024-12-30 08:32:47,False,2,"Solo em condições ideais, irrigação desnecessária"
+366,366,2024-12-31 08:30:14,True,12,Condições favoráveis! Irrigação acionada
+367,367,2025-01-01 08:31:15,True,12,Condições favoráveis! Irrigação acionada
+368,368,2025-01-02 08:37:02,True,12,Condições favoráveis! Irrigação acionada
+369,369,2025-01-03 08:31:55,True,12,Condições favoráveis! Irrigação acionada
+370,370,2025-01-04 08:10:14,False,2,"Solo em condições ideais, irrigação desnecessária"
+371,371,2025-01-05 08:23:29,True,12,Condições favoráveis! Irrigação acionada
+372,372,2025-01-06 08:29:46,True,12,Condições favoráveis! Irrigação acionada
+373,373,2025-01-07 08:05:49,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+374,374,2025-01-08 08:37:56,True,12,Condições favoráveis! Irrigação acionada
+375,375,2025-01-09 08:05:58,True,12,Condições favoráveis! Irrigação acionada
+376,376,2025-01-10 08:25:31,True,12,Condições favoráveis! Irrigação acionada
+377,377,2025-01-11 08:35:40,False,2,"Solo em condições ideais, irrigação desnecessária"
+378,378,2025-01-12 08:35:01,False,9,Chuva prevista de 10.9mm supre demanda hídrica da cultura. Irrigação suspensa
+379,379,2025-01-13 08:23:44,False,9,Chuva prevista de 5.2mm supre demanda hídrica da cultura. Irrigação suspensa
+380,380,2025-01-14 08:01:45,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+381,381,2025-01-15 08:39:55,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+382,382,2025-01-16 08:31:07,True,12,Condições favoráveis! Irrigação acionada
+383,383,2025-01-17 08:01:27,False,2,"Solo em condições ideais, irrigação desnecessária"
+384,384,2025-01-18 08:09:44,True,12,Condições favoráveis! Irrigação acionada
+385,385,2025-01-19 08:29:42,False,9,Chuva prevista de 7.8mm supre demanda hídrica da cultura. Irrigação suspensa
+386,386,2025-01-20 08:20:26,True,12,Condições favoráveis! Irrigação acionada
+387,387,2025-01-21 08:40:47,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+388,388,2025-01-22 08:24:25,True,12,Condições favoráveis! Irrigação acionada
+389,389,2025-01-23 08:08:48,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+390,390,2025-01-24 08:08:32,False,1,"Umidade acima de 80%, irrigação suspensa"
+391,391,2025-01-25 08:36:23,False,9,Chuva prevista de 4.4mm supre demanda hídrica da cultura. Irrigação suspensa
+392,392,2025-01-26 08:02:01,True,12,Condições favoráveis! Irrigação acionada
+393,393,2025-01-27 08:21:03,False,2,"Solo em condições ideais, irrigação desnecessária"
+394,394,2025-01-28 08:06:41,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+395,395,2025-01-29 08:33:19,False,1,"Umidade acima de 80%, irrigação suspensa"
+396,396,2025-01-30 08:39:46,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+397,397,2025-01-31 08:37:26,False,2,"Solo em condições ideais, irrigação desnecessária"
+398,398,2025-02-01 08:06:39,False,2,"Solo em condições ideais, irrigação desnecessária"
+399,399,2025-02-02 08:28:18,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+400,400,2025-02-03 08:29:52,False,1,"Umidade acima de 80%, irrigação suspensa"
+401,401,2025-02-04 08:18:34,True,12,Condições favoráveis! Irrigação acionada
+402,402,2025-02-05 08:15:23,False,2,"Solo em condições ideais, irrigação desnecessária"
+403,403,2025-02-06 08:07:43,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+404,404,2025-02-07 08:08:30,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+405,405,2025-02-08 08:14:18,False,1,"Umidade acima de 80%, irrigação suspensa"
+406,406,2025-02-09 08:08:35,False,1,"Umidade acima de 80%, irrigação suspensa"
+407,407,2025-02-10 08:37:36,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+408,408,2025-02-11 08:27:24,False,1,"Umidade acima de 80%, irrigação suspensa"
+409,409,2025-02-12 08:14:50,False,9,Chuva prevista de 6.6mm supre demanda hídrica da cultura. Irrigação suspensa
+410,410,2025-02-13 08:18:08,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+411,411,2025-02-14 08:09:47,False,1,"Umidade acima de 80%, irrigação suspensa"
+412,412,2025-02-15 08:04:14,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+413,413,2025-02-16 08:24:51,False,9,Chuva prevista de 9.0mm supre demanda hídrica da cultura. Irrigação suspensa
+414,414,2025-02-17 08:02:26,True,12,Condições favoráveis! Irrigação acionada
+415,415,2025-02-18 08:04:16,False,2,"Solo em condições ideais, irrigação desnecessária"
+416,416,2025-02-19 08:08:28,False,2,"Solo em condições ideais, irrigação desnecessária"
+417,417,2025-02-20 08:09:12,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+418,418,2025-02-21 08:10:54,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+419,419,2025-02-22 08:27:23,False,1,"Umidade acima de 80%, irrigação suspensa"
+420,420,2025-02-23 08:40:31,False,1,"Umidade acima de 80%, irrigação suspensa"
+421,421,2025-02-24 08:11:58,False,1,"Umidade acima de 80%, irrigação suspensa"
+422,422,2025-02-25 08:13:05,False,2,"Solo em condições ideais, irrigação desnecessária"
+423,423,2025-02-26 08:24:58,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+424,424,2025-02-27 08:03:18,False,1,"Umidade acima de 80%, irrigação suspensa"
+425,425,2025-02-28 08:19:41,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+426,426,2025-03-01 08:11:56,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+427,427,2025-03-02 08:21:34,False,1,"Umidade acima de 80%, irrigação suspensa"
+428,428,2025-03-03 08:33:56,False,1,"Umidade acima de 80%, irrigação suspensa"
+429,429,2025-03-04 08:27:32,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+430,430,2025-03-05 08:29:52,False,1,"Umidade acima de 80%, irrigação suspensa"
+431,431,2025-03-06 08:36:15,False,1,"Umidade acima de 80%, irrigação suspensa"
+432,432,2025-03-07 08:19:40,False,1,"Umidade acima de 80%, irrigação suspensa"
+433,433,2025-03-08 08:37:31,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+434,434,2025-03-09 08:08:49,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+435,435,2025-03-10 08:39:48,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+436,436,2025-03-11 08:31:41,False,1,"Umidade acima de 80%, irrigação suspensa"
+437,437,2025-03-12 08:14:39,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+438,438,2025-03-13 08:04:48,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+439,439,2025-03-14 08:32:28,False,1,"Umidade acima de 80%, irrigação suspensa"
+440,440,2025-03-15 08:04:27,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+441,441,2025-03-16 08:02:49,False,1,"Umidade acima de 80%, irrigação suspensa"
+442,442,2025-03-17 08:21:01,False,1,"Umidade acima de 80%, irrigação suspensa"
+443,443,2025-03-18 08:06:16,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+444,444,2025-03-19 08:08:06,False,1,"Umidade acima de 80%, irrigação suspensa"
+445,445,2025-03-20 08:06:16,False,1,"Umidade acima de 80%, irrigação suspensa"
+446,446,2025-03-21 08:13:40,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+447,447,2025-03-22 08:20:39,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+448,448,2025-03-23 08:31:30,False,1,"Umidade acima de 80%, irrigação suspensa"
+449,449,2025-03-24 08:13:08,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+450,450,2025-03-25 08:06:54,False,1,"Umidade acima de 80%, irrigação suspensa"
+451,451,2025-03-26 08:22:45,False,1,"Umidade acima de 80%, irrigação suspensa"
+452,452,2025-03-27 08:36:14,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+453,453,2025-03-28 08:10:55,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+454,454,2025-03-29 08:05:32,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+455,455,2025-03-30 08:39:44,False,1,"Umidade acima de 80%, irrigação suspensa"
+456,456,2025-03-31 08:11:10,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+457,457,2025-04-01 08:28:19,False,1,"Umidade acima de 80%, irrigação suspensa"
+458,458,2025-04-02 08:35:40,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+459,459,2025-04-03 08:27:57,False,1,"Umidade acima de 80%, irrigação suspensa"
+460,460,2025-04-04 08:08:24,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+461,461,2025-04-05 08:39:50,False,1,"Umidade acima de 80%, irrigação suspensa"
+462,462,2025-04-06 08:15:52,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+463,463,2025-04-07 08:34:57,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+464,464,2025-04-08 08:05:14,False,1,"Umidade acima de 80%, irrigação suspensa"
+465,465,2025-04-09 08:18:46,False,1,"Umidade acima de 80%, irrigação suspensa"
+466,466,2025-04-10 08:19:52,False,1,"Umidade acima de 80%, irrigação suspensa"
+467,467,2025-04-11 08:38:58,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+468,468,2025-04-12 08:03:03,False,1,"Umidade acima de 80%, irrigação suspensa"
+469,469,2025-04-13 08:37:18,False,1,"Umidade acima de 80%, irrigação suspensa"
+470,470,2025-04-14 08:34:45,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+471,471,2025-04-15 08:02:12,False,1,"Umidade acima de 80%, irrigação suspensa"
+472,472,2025-04-16 08:38:52,False,1,"Umidade acima de 80%, irrigação suspensa"
+473,473,2025-04-17 08:26:33,False,1,"Umidade acima de 80%, irrigação suspensa"
+474,474,2025-04-18 08:14:32,False,1,"Umidade acima de 80%, irrigação suspensa"
+475,475,2025-04-19 08:17:03,False,1,"Umidade acima de 80%, irrigação suspensa"
+476,476,2025-04-20 08:11:27,False,1,"Umidade acima de 80%, irrigação suspensa"
+477,477,2025-04-21 08:11:52,False,1,"Umidade acima de 80%, irrigação suspensa"
+478,478,2025-04-22 08:37:24,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+479,479,2025-04-23 08:33:32,False,1,"Umidade acima de 80%, irrigação suspensa"
+480,480,2025-04-24 08:31:32,False,1,"Umidade acima de 80%, irrigação suspensa"
+481,481,2025-04-25 08:30:56,False,1,"Umidade acima de 80%, irrigação suspensa"
+482,482,2025-04-26 08:23:25,False,1,"Umidade acima de 80%, irrigação suspensa"
+483,483,2025-04-27 08:36:22,False,1,"Umidade acima de 80%, irrigação suspensa"
+484,484,2025-04-28 08:34:40,False,1,"Umidade acima de 80%, irrigação suspensa"
+485,485,2025-04-29 08:08:45,False,1,"Umidade acima de 80%, irrigação suspensa"
+486,486,2025-04-30 08:31:44,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+487,487,2025-05-01 08:14:05,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+488,488,2025-05-02 08:37:38,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+489,489,2025-05-03 08:18:51,False,1,"Umidade acima de 80%, irrigação suspensa"
+490,490,2025-05-04 08:03:55,False,1,"Umidade acima de 80%, irrigação suspensa"
+491,491,2025-05-05 08:24:31,False,1,"Umidade acima de 80%, irrigação suspensa"
+492,492,2025-05-06 08:30:38,False,1,"Umidade acima de 80%, irrigação suspensa"
+493,493,2025-05-07 08:34:27,False,1,"Umidade acima de 80%, irrigação suspensa"
+494,494,2025-05-08 08:21:33,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+495,495,2025-05-09 08:40:27,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+496,496,2025-05-10 08:08:41,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+497,497,2025-05-11 08:14:48,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+498,498,2025-05-12 08:28:35,False,1,"Umidade acima de 80%, irrigação suspensa"
+499,499,2025-05-13 08:26:50,False,1,"Umidade acima de 80%, irrigação suspensa"
+500,500,2025-05-14 08:23:26,False,1,"Umidade acima de 80%, irrigação suspensa"
+501,501,2025-05-15 08:25:28,False,1,"Umidade acima de 80%, irrigação suspensa"
+502,502,2025-05-16 08:18:36,False,2,"Solo em condições ideais, irrigação desnecessária"
+503,503,2025-05-17 08:08:40,False,1,"Umidade acima de 80%, irrigação suspensa"
+504,504,2025-05-18 08:16:01,False,1,"Umidade acima de 80%, irrigação suspensa"
+505,505,2025-05-19 08:17:38,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+506,506,2025-05-20 08:39:31,False,2,"Solo em condições ideais, irrigação desnecessária"
+507,507,2025-05-21 08:07:08,False,1,"Umidade acima de 80%, irrigação suspensa"
+508,508,2025-05-22 08:08:33,False,1,"Umidade acima de 80%, irrigação suspensa"
+509,509,2025-05-23 08:21:40,False,2,"Solo em condições ideais, irrigação desnecessária"
+510,510,2025-05-24 08:31:34,False,1,"Umidade acima de 80%, irrigação suspensa"
+511,511,2025-05-25 08:10:40,False,1,"Umidade acima de 80%, irrigação suspensa"
+512,512,2025-05-26 08:24:56,True,12,Condições favoráveis! Irrigação acionada
+513,513,2025-05-27 08:22:09,True,12,Condições favoráveis! Irrigação acionada
+514,514,2025-05-28 08:29:10,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+515,515,2025-05-29 08:13:35,False,1,"Umidade acima de 80%, irrigação suspensa"
+516,516,2025-05-30 08:25:23,False,1,"Umidade acima de 80%, irrigação suspensa"
+517,517,2025-05-31 08:30:23,False,1,"Umidade acima de 80%, irrigação suspensa"
+518,518,2025-06-01 08:26:53,False,9,Chuva prevista de 11.4mm supre demanda hídrica da cultura. Irrigação suspensa
+519,519,2025-06-02 08:18:48,False,1,"Umidade acima de 80%, irrigação suspensa"
+520,520,2025-06-03 08:20:36,False,2,"Solo em condições ideais, irrigação desnecessária"
+521,521,2025-06-04 08:19:53,False,2,"Solo em condições ideais, irrigação desnecessária"
+522,522,2025-06-05 08:30:54,False,1,"Umidade acima de 80%, irrigação suspensa"
+523,523,2025-06-06 08:30:37,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+524,524,2025-06-07 08:13:56,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+525,525,2025-06-08 08:35:19,False,1,"Umidade acima de 80%, irrigação suspensa"
+526,526,2025-06-09 08:33:42,True,12,Condições favoráveis! Irrigação acionada
+527,527,2025-06-10 08:08:47,False,1,"Umidade acima de 80%, irrigação suspensa"
+528,528,2025-06-11 08:12:29,True,12,Condições favoráveis! Irrigação acionada
+529,529,2025-06-12 08:07:58,False,1,"Umidade acima de 80%, irrigação suspensa"
+530,530,2025-06-13 08:02:44,False,2,"Solo em condições ideais, irrigação desnecessária"
+531,531,2025-06-14 08:38:35,False,9,Chuva prevista de 4.3mm supre demanda hídrica da cultura. Irrigação suspensa
+532,532,2025-06-15 08:12:37,False,1,"Umidade acima de 80%, irrigação suspensa"
+533,533,2025-06-16 08:06:38,False,1,"Umidade acima de 80%, irrigação suspensa"
+534,534,2025-06-17 08:32:44,False,1,"Umidade acima de 80%, irrigação suspensa"
+535,535,2025-06-18 08:27:46,True,12,Condições favoráveis! Irrigação acionada
+536,536,2025-06-19 08:26:19,False,2,"Solo em condições ideais, irrigação desnecessária"
+537,537,2025-06-20 08:14:07,False,2,"Solo em condições ideais, irrigação desnecessária"
+538,538,2025-06-21 08:25:47,True,12,Condições favoráveis! Irrigação acionada
+539,539,2025-06-22 08:08:08,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+540,540,2025-06-23 08:05:57,False,9,Chuva prevista de 4.9mm supre demanda hídrica da cultura. Irrigação suspensa
+541,541,2025-06-24 08:03:08,False,1,"Umidade acima de 80%, irrigação suspensa"
+542,542,2025-06-25 08:11:25,True,12,Condições favoráveis! Irrigação acionada
+543,543,2025-06-26 08:04:38,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+544,544,2025-06-27 08:23:25,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+545,545,2025-06-28 08:20:18,False,2,"Solo em condições ideais, irrigação desnecessária"
+546,546,2025-06-29 08:26:56,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+547,547,2025-06-30 08:21:39,True,12,Condições favoráveis! Irrigação acionada
+548,548,2025-07-01 08:04:17,True,12,Condições favoráveis! Irrigação acionada
+549,549,2025-07-02 08:14:39,True,12,Condições favoráveis! Irrigação acionada
+550,550,2025-07-03 08:31:02,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+551,551,2025-07-04 08:36:17,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+552,552,2025-07-05 08:20:38,False,2,"Solo em condições ideais, irrigação desnecessária"
+553,553,2025-07-06 08:08:11,True,12,Condições favoráveis! Irrigação acionada
+554,554,2025-07-07 08:17:49,False,9,Chuva prevista de 6.5mm supre demanda hídrica da cultura. Irrigação suspensa
+555,555,2025-07-08 08:27:56,False,2,"Solo em condições ideais, irrigação desnecessária"
+556,556,2025-07-09 08:35:11,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+557,557,2025-07-10 08:16:29,False,1,"Umidade acima de 80%, irrigação suspensa"
+558,558,2025-07-11 08:08:28,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+559,559,2025-07-12 08:03:56,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+560,560,2025-07-13 08:07:58,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+561,561,2025-07-14 08:12:25,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+562,562,2025-07-15 08:27:12,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+563,563,2025-07-16 08:30:23,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+564,564,2025-07-17 08:06:15,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+565,565,2025-07-18 08:17:38,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+566,566,2025-07-19 08:15:25,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+567,567,2025-07-20 08:17:31,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+568,568,2025-07-21 08:07:59,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+569,569,2025-07-22 08:12:40,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+570,570,2025-07-23 08:05:33,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+571,571,2025-07-24 08:16:59,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+572,572,2025-07-25 08:26:24,False,1,"Umidade acima de 80%, irrigação suspensa"
+573,573,2025-07-26 08:09:47,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+574,574,2025-07-27 08:40:21,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+575,575,2025-07-28 08:03:33,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+576,576,2025-07-29 08:35:37,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+577,577,2025-07-30 08:37:21,True,12,Condições favoráveis! Irrigação acionada
+578,578,2025-07-31 08:01:52,False,2,"Solo em condições ideais, irrigação desnecessária"
+579,579,2025-08-01 08:18:41,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+580,580,2025-08-02 08:09:34,True,12,Condições favoráveis! Irrigação acionada
+581,581,2025-08-03 08:25:17,False,2,"Solo em condições ideais, irrigação desnecessária"
+582,582,2025-08-04 08:20:58,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+583,583,2025-08-05 08:24:35,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+584,584,2025-08-06 08:35:03,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+585,585,2025-08-07 08:37:19,True,12,Condições favoráveis! Irrigação acionada
+586,586,2025-08-08 08:37:32,False,2,"Solo em condições ideais, irrigação desnecessária"
+587,587,2025-08-09 08:29:31,True,12,Condições favoráveis! Irrigação acionada
+588,588,2025-08-10 08:28:40,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+589,589,2025-08-11 08:40:17,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+590,590,2025-08-12 08:13:28,False,2,"Solo em condições ideais, irrigação desnecessária"
+591,591,2025-08-13 08:07:31,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+592,592,2025-08-14 08:26:29,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+593,593,2025-08-15 08:40:02,True,12,Condições favoráveis! Irrigação acionada
+594,594,2025-08-16 08:27:12,True,12,Condições favoráveis! Irrigação acionada
+595,595,2025-08-17 08:22:55,True,12,Condições favoráveis! Irrigação acionada
+596,596,2025-08-18 08:24:21,True,12,Condições favoráveis! Irrigação acionada
+597,597,2025-08-19 08:31:44,False,2,"Solo em condições ideais, irrigação desnecessária"
+598,598,2025-08-20 08:05:30,False,9,Chuva prevista de 12.3mm supre demanda hídrica da cultura. Irrigação suspensa
+599,599,2025-08-21 08:33:40,True,12,Condições favoráveis! Irrigação acionada
+600,600,2025-08-22 08:07:01,False,9,Chuva prevista de 4.3mm supre demanda hídrica da cultura. Irrigação suspensa
+601,601,2025-08-23 08:10:55,True,12,Condições favoráveis! Irrigação acionada
+602,602,2025-08-24 08:10:39,True,12,Condições favoráveis! Irrigação acionada
+603,603,2025-08-25 08:30:12,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+604,604,2025-08-26 08:26:50,False,9,Chuva prevista de 4.3mm supre demanda hídrica da cultura. Irrigação suspensa
+605,605,2025-08-27 08:18:46,True,12,Condições favoráveis! Irrigação acionada
+606,606,2025-08-28 08:26:30,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+607,607,2025-08-29 08:35:49,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+608,608,2025-08-30 08:41:20,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+609,609,2025-08-31 08:33:36,True,12,Condições favoráveis! Irrigação acionada
+610,610,2025-09-01 08:38:55,True,12,Condições favoráveis! Irrigação acionada
+611,611,2025-09-02 08:15:49,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+612,612,2025-09-03 08:09:29,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+613,613,2025-09-04 08:33:07,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+614,614,2025-09-05 08:14:36,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+615,615,2025-09-06 08:24:16,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+616,616,2025-09-07 08:32:13,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+617,617,2025-09-08 08:09:32,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+618,618,2025-09-09 08:25:44,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+619,619,2025-09-10 08:08:44,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+620,620,2025-09-11 08:08:42,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+621,621,2025-09-12 08:03:07,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+622,622,2025-09-13 08:10:52,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+623,623,2025-09-14 08:28:21,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+624,624,2025-09-15 08:24:45,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+625,625,2025-09-16 08:36:50,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+626,626,2025-09-17 08:16:39,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+627,627,2025-09-18 08:19:01,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+628,628,2025-09-19 08:04:52,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+629,629,2025-09-20 08:40:54,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+630,630,2025-09-21 08:09:40,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+631,631,2025-09-22 08:04:46,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+632,632,2025-09-23 08:00:46,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+633,633,2025-09-24 08:14:47,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+634,634,2025-09-25 08:18:13,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+635,635,2025-09-26 08:15:41,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+636,636,2025-09-27 08:29:43,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+637,637,2025-09-28 08:04:08,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+638,638,2025-09-29 08:14:57,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+639,639,2025-09-30 08:22:13,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+640,640,2025-10-01 08:39:50,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+641,641,2025-10-02 08:28:35,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+642,642,2025-10-03 08:15:47,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+643,643,2025-10-04 08:21:59,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+644,644,2025-10-05 08:27:00,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+645,645,2025-10-06 08:09:20,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+646,646,2025-10-07 08:36:50,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+647,647,2025-10-08 08:38:31,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+648,648,2025-10-09 08:39:58,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+649,649,2025-10-10 08:19:40,True,12,Condições favoráveis! Irrigação acionada
+650,650,2025-10-11 08:22:56,True,12,Condições favoráveis! Irrigação acionada
+651,651,2025-10-12 08:20:25,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+652,652,2025-10-13 08:10:06,True,12,Condições favoráveis! Irrigação acionada
+653,653,2025-10-14 08:09:49,True,12,Condições favoráveis! Irrigação acionada
+654,654,2025-10-15 08:40:00,True,12,Condições favoráveis! Irrigação acionada
+655,655,2025-10-16 08:31:09,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+656,656,2025-10-17 08:29:13,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+657,657,2025-10-18 08:21:32,True,12,Condições favoráveis! Irrigação acionada
+658,658,2025-10-19 08:06:34,True,12,Condições favoráveis! Irrigação acionada
+659,659,2025-10-20 08:20:38,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+660,660,2025-10-21 08:01:53,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+661,661,2025-10-22 08:25:17,True,12,Condições favoráveis! Irrigação acionada
+662,662,2025-10-23 08:21:42,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+663,663,2025-10-24 08:23:02,True,12,Condições favoráveis! Irrigação acionada
+664,664,2025-10-25 08:22:28,True,12,Condições favoráveis! Irrigação acionada
+665,665,2025-10-26 08:29:36,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+666,666,2025-10-27 08:25:29,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+667,667,2025-10-28 08:27:42,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+668,668,2025-10-29 08:37:39,True,12,Condições favoráveis! Irrigação acionada
+669,669,2025-10-30 08:32:00,True,12,Condições favoráveis! Irrigação acionada
+670,670,2025-10-31 08:12:31,True,12,Condições favoráveis! Irrigação acionada
+671,671,2025-11-01 08:18:27,True,12,Condições favoráveis! Irrigação acionada
+672,672,2025-11-02 08:23:41,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+673,673,2025-11-03 08:22:45,True,12,Condições favoráveis! Irrigação acionada
+674,674,2025-11-04 08:06:40,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+675,675,2025-11-05 08:10:10,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+676,676,2025-11-06 08:04:45,True,12,Condições favoráveis! Irrigação acionada
+677,677,2025-11-07 08:15:58,True,12,Condições favoráveis! Irrigação acionada
+678,678,2025-11-08 08:12:14,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+679,679,2025-11-09 08:23:49,True,12,Condições favoráveis! Irrigação acionada
+680,680,2025-11-10 08:05:50,True,12,Condições favoráveis! Irrigação acionada
+681,681,2025-11-11 08:41:08,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+682,682,2025-11-12 08:05:23,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+683,683,2025-11-13 08:28:07,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+684,684,2025-11-14 08:30:09,True,12,Condições favoráveis! Irrigação acionada
+685,685,2025-11-15 08:22:26,True,12,Condições favoráveis! Irrigação acionada
+686,686,2025-11-16 08:11:34,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+687,687,2025-11-17 08:14:08,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+688,688,2025-11-18 08:41:30,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+689,689,2025-11-19 08:31:16,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+690,690,2025-11-20 08:20:56,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+691,691,2025-11-21 08:26:05,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+692,692,2025-11-22 08:07:37,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+693,693,2025-11-23 08:26:24,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+694,694,2025-11-24 08:10:13,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+695,695,2025-11-25 08:13:16,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+696,696,2025-11-26 08:06:08,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+697,697,2025-11-27 08:26:59,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+698,698,2025-11-28 08:37:01,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+699,699,2025-11-29 08:05:54,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+700,700,2025-11-30 08:38:41,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+701,701,2025-12-01 08:24:27,True,12,Condições favoráveis! Irrigação acionada
+702,702,2025-12-02 08:06:30,False,2,"Solo em condições ideais, irrigação desnecessária"
+703,703,2025-12-03 08:40:44,True,12,Condições favoráveis! Irrigação acionada
+704,704,2025-12-04 08:21:27,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+705,705,2025-12-05 08:25:04,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+706,706,2025-12-06 08:36:46,True,12,Condições favoráveis! Irrigação acionada
+707,707,2025-12-07 08:01:48,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+708,708,2025-12-08 08:35:36,True,12,Condições favoráveis! Irrigação acionada
+709,709,2025-12-09 08:25:16,False,9,Chuva prevista de 4.3mm supre demanda hídrica da cultura. Irrigação suspensa
+710,710,2025-12-10 08:13:00,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+711,711,2025-12-11 08:24:54,True,12,Condições favoráveis! Irrigação acionada
+712,712,2025-12-12 08:18:58,True,12,Condições favoráveis! Irrigação acionada
+713,713,2025-12-13 08:19:06,True,12,Condições favoráveis! Irrigação acionada
+714,714,2025-12-14 08:14:03,True,12,Condições favoráveis! Irrigação acionada
+715,715,2025-12-15 08:02:22,True,12,Condições favoráveis! Irrigação acionada
+716,716,2025-12-16 08:35:56,True,12,Condições favoráveis! Irrigação acionada
+717,717,2025-12-17 08:10:39,True,12,Condições favoráveis! Irrigação acionada
+718,718,2025-12-18 08:27:54,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+719,719,2025-12-19 08:26:41,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+720,720,2025-12-20 08:05:57,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+721,721,2025-12-21 08:37:42,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+722,722,2025-12-22 08:08:40,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+723,723,2025-12-23 08:38:02,True,12,Condições favoráveis! Irrigação acionada
+724,724,2025-12-24 08:35:33,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+725,725,2025-12-25 08:35:32,True,12,Condições favoráveis! Irrigação acionada
+726,726,2025-12-26 08:36:53,False,2,"Solo em condições ideais, irrigação desnecessária"
+727,727,2025-12-27 08:13:41,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+728,728,2025-12-28 08:25:48,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+729,729,2025-12-29 08:33:41,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+730,730,2025-12-30 08:36:54,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+731,731,2025-12-31 08:07:07,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+732,732,2026-01-01 08:36:32,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+733,733,2026-01-02 08:31:07,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+734,734,2026-01-03 08:24:47,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+735,735,2026-01-04 08:14:54,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+736,736,2026-01-05 08:36:53,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+737,737,2026-01-06 08:35:08,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+738,738,2026-01-07 08:35:03,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+739,739,2026-01-08 08:28:51,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+740,740,2026-01-09 08:18:33,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+741,741,2026-01-10 08:22:23,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+742,742,2026-01-11 08:06:15,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+743,743,2026-01-12 08:17:22,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+744,744,2026-01-13 08:19:19,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+745,745,2026-01-14 08:08:26,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+746,746,2026-01-15 08:08:51,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+747,747,2026-01-16 08:28:31,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+748,748,2026-01-17 08:32:14,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+749,749,2026-01-18 08:13:50,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+750,750,2026-01-19 08:28:23,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+751,751,2026-01-20 08:20:41,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+752,752,2026-01-21 08:36:01,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+753,753,2026-01-22 08:09:58,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+754,754,2026-01-23 08:36:02,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+755,755,2026-01-24 08:35:56,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+756,756,2026-01-25 08:08:34,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+757,757,2026-01-26 08:25:16,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+758,758,2026-01-27 08:31:02,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+759,759,2026-01-28 08:09:36,False,9,Chuva prevista de 4.8mm supre demanda hídrica da cultura. Irrigação suspensa
+760,760,2026-01-29 08:20:23,False,9,Chuva prevista de 15.3mm supre demanda hídrica da cultura. Irrigação suspensa
+761,761,2026-01-30 08:17:16,False,1,"Umidade acima de 80%, irrigação suspensa"
+762,762,2026-01-31 08:40:46,False,1,"Umidade acima de 80%, irrigação suspensa"
+763,763,2026-02-01 08:30:52,False,1,"Umidade acima de 80%, irrigação suspensa"
+764,764,2026-02-02 08:13:03,False,9,Chuva prevista de 6.9mm supre demanda hídrica da cultura. Irrigação suspensa
+765,765,2026-02-03 08:39:03,False,2,"Solo em condições ideais, irrigação desnecessária"
+766,766,2026-02-04 08:42:05,False,9,Chuva prevista de 7.3mm supre demanda hídrica da cultura. Irrigação suspensa
+767,767,2026-02-05 08:11:09,False,1,"Umidade acima de 80%, irrigação suspensa"
+768,768,2026-02-06 08:33:07,True,12,Condições favoráveis! Irrigação acionada
+769,769,2026-02-07 08:08:38,True,12,Condições favoráveis! Irrigação acionada
+770,770,2026-02-08 08:04:03,True,12,Condições favoráveis! Irrigação acionada
+771,771,2026-02-09 08:32:28,True,12,Condições favoráveis! Irrigação acionada
+772,772,2026-02-10 08:09:28,False,9,Chuva prevista de 10.5mm supre demanda hídrica da cultura. Irrigação suspensa
+773,773,2026-02-11 08:23:16,False,1,"Umidade acima de 80%, irrigação suspensa"
+774,774,2026-02-12 08:36:36,False,2,"Solo em condições ideais, irrigação desnecessária"
+775,775,2026-02-13 08:23:16,False,2,"Solo em condições ideais, irrigação desnecessária"
+776,776,2026-02-14 08:09:16,False,1,"Umidade acima de 80%, irrigação suspensa"
+777,777,2026-02-15 08:02:33,False,1,"Umidade acima de 80%, irrigação suspensa"
+778,778,2026-02-16 08:05:24,False,9,Chuva prevista de 5.7mm supre demanda hídrica da cultura. Irrigação suspensa
+779,779,2026-02-17 08:01:19,False,1,"Umidade acima de 80%, irrigação suspensa"
+780,780,2026-02-18 08:29:57,False,9,Chuva prevista de 4.9mm supre demanda hídrica da cultura. Irrigação suspensa
+781,781,2026-02-19 08:26:37,True,12,Condições favoráveis! Irrigação acionada
+782,782,2026-02-20 08:26:17,False,2,"Solo em condições ideais, irrigação desnecessária"
+783,783,2026-02-21 08:07:13,True,12,Condições favoráveis! Irrigação acionada
+784,784,2026-02-22 08:04:02,False,9,Chuva prevista de 11.8mm supre demanda hídrica da cultura. Irrigação suspensa
+785,785,2026-02-23 08:22:45,False,2,"Solo em condições ideais, irrigação desnecessária"
+786,786,2026-02-24 08:39:16,True,12,Condições favoráveis! Irrigação acionada
+787,787,2026-02-25 08:11:43,False,9,Chuva prevista de 10.9mm supre demanda hídrica da cultura. Irrigação suspensa
+788,788,2026-02-26 08:28:06,False,1,"Umidade acima de 80%, irrigação suspensa"
+789,789,2026-02-27 08:20:37,False,1,"Umidade acima de 80%, irrigação suspensa"
+790,790,2026-02-28 08:23:03,False,1,"Umidade acima de 80%, irrigação suspensa"
+791,791,2026-03-01 08:25:12,False,1,"Umidade acima de 80%, irrigação suspensa"
+792,792,2026-03-02 08:27:09,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+793,793,2026-03-03 08:24:54,False,1,"Umidade acima de 80%, irrigação suspensa"
+794,794,2026-03-04 08:06:39,False,1,"Umidade acima de 80%, irrigação suspensa"
+795,795,2026-03-05 08:07:31,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+796,796,2026-03-06 08:24:28,False,1,"Umidade acima de 80%, irrigação suspensa"
+797,797,2026-03-07 08:20:55,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+798,798,2026-03-08 08:19:44,False,1,"Umidade acima de 80%, irrigação suspensa"
+799,799,2026-03-09 08:39:14,False,1,"Umidade acima de 80%, irrigação suspensa"
+800,800,2026-03-10 08:11:12,False,1,"Umidade acima de 80%, irrigação suspensa"
+801,801,2026-03-11 08:30:01,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+802,802,2026-03-12 08:14:11,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+803,803,2026-03-13 08:23:44,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+804,804,2026-03-14 08:25:04,False,1,"Umidade acima de 80%, irrigação suspensa"
+805,805,2026-03-15 08:40:05,False,1,"Umidade acima de 80%, irrigação suspensa"
+806,806,2026-03-16 08:15:55,False,1,"Umidade acima de 80%, irrigação suspensa"
+807,807,2026-03-17 08:01:07,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+808,808,2026-03-18 08:02:26,False,1,"Umidade acima de 80%, irrigação suspensa"
+809,809,2026-03-19 08:40:46,False,1,"Umidade acima de 80%, irrigação suspensa"
+810,810,2026-03-20 08:10:57,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+811,811,2026-03-21 08:05:53,False,1,"Umidade acima de 80%, irrigação suspensa"
+812,812,2026-03-22 08:30:16,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+813,813,2026-03-23 08:17:51,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+814,814,2026-03-24 08:11:43,False,1,"Umidade acima de 80%, irrigação suspensa"
+815,815,2026-03-25 08:21:59,False,1,"Umidade acima de 80%, irrigação suspensa"
+816,816,2026-03-26 08:31:17,False,1,"Umidade acima de 80%, irrigação suspensa"
+817,817,2026-03-27 08:14:15,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+818,818,2026-03-28 08:18:33,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+819,819,2026-03-29 08:38:28,False,1,"Umidade acima de 80%, irrigação suspensa"
+820,820,2026-03-30 08:24:54,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+821,821,2026-03-31 08:33:35,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+822,822,2026-04-01 08:20:40,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
+823,823,2026-04-02 08:36:12,False,1,"Umidade acima de 80%, irrigação suspensa"
+824,824,2026-04-03 08:13:17,False,1,"Umidade acima de 80%, irrigação suspensa"
+825,825,2026-04-04 08:37:14,False,1,"Umidade acima de 80%, irrigação suspensa"
+826,826,2026-04-05 08:27:19,False,2,"Solo em condições ideais, irrigação desnecessária"
+827,827,2026-04-06 08:08:56,False,2,"Solo em condições ideais, irrigação desnecessária"
+828,828,2026-04-07 08:11:30,False,1,"Umidade acima de 80%, irrigação suspensa"
+829,829,2026-04-08 08:05:21,False,1,"Umidade acima de 80%, irrigação suspensa"
+830,830,2026-04-09 08:38:56,False,1,"Umidade acima de 80%, irrigação suspensa"
+831,831,2026-04-10 08:05:21,False,1,"Umidade acima de 80%, irrigação suspensa"
+832,832,2026-04-11 08:31:17,False,1,"Umidade acima de 80%, irrigação suspensa"
+833,833,2026-04-12 08:30:21,False,1,"Umidade acima de 80%, irrigação suspensa"
+834,834,2026-04-13 08:12:35,False,1,"Umidade acima de 80%, irrigação suspensa"
+835,835,2026-04-14 08:02:24,False,2,"Solo em condições ideais, irrigação desnecessária"
+836,836,2026-04-15 08:04:02,False,1,"Umidade acima de 80%, irrigação suspensa"
+837,837,2026-04-16 08:04:23,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+838,838,2026-04-17 08:26:52,False,3,"pH fora do ideal + umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+839,839,2026-04-18 08:40:47,False,2,"Solo em condições ideais, irrigação desnecessária"
+840,840,2026-04-19 08:31:17,False,1,"Umidade acima de 80%, irrigação suspensa"
+841,841,2026-04-20 08:08:05,False,2,"Solo em condições ideais, irrigação desnecessária"
+842,842,2026-04-21 08:22:41,False,1,"Umidade acima de 80%, irrigação suspensa"
+843,843,2026-04-22 08:39:40,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+844,844,2026-04-23 08:16:23,False,1,"Umidade acima de 80%, irrigação suspensa"
+845,845,2026-04-24 08:29:53,False,1,"Umidade acima de 80%, irrigação suspensa"
+846,846,2026-04-25 08:23:06,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+847,847,2026-04-26 08:19:24,False,1,"Umidade acima de 80%, irrigação suspensa"
+848,848,2026-04-27 08:32:07,False,2,"Solo em condições ideais, irrigação desnecessária"
+849,849,2026-04-28 08:18:10,False,2,"Solo em condições ideais, irrigação desnecessária"
+850,850,2026-04-29 08:28:02,False,2,"Solo em condições ideais, irrigação desnecessária"
+851,851,2026-04-30 08:09:08,True,12,Condições favoráveis! Irrigação acionada
+852,852,2026-05-01 08:09:08,False,2,"Solo em condições ideais, irrigação desnecessária"
+853,853,2026-05-02 08:09:11,False,4,"Atenção! Cultura em risco! pH fora do ideal sendo levado à cultura, corrigir solo urgente! Irrigação suspensa"
+854,854,2026-05-03 08:08:43,False,1,"Umidade acima de 80%, irrigação suspensa"
+855,855,2026-05-04 08:36:57,False,1,"Umidade acima de 80%, irrigação suspensa"
+856,856,2026-05-05 08:31:51,False,1,"Umidade acima de 80%, irrigação suspensa"
+857,857,2026-05-06 08:07:51,False,1,"Umidade acima de 80%, irrigação suspensa"
+858,858,2026-05-07 08:17:04,False,2,"Solo em condições ideais, irrigação desnecessária"
+859,859,2026-05-08 08:33:13,False,2,"Solo em condições ideais, irrigação desnecessária"
+860,860,2026-05-09 08:06:56,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+861,861,2026-05-10 08:08:59,False,8,"Atenção! Cultura em risco! NPK e pH irregulares, corrigir solo urgente! Irrigação suspensa"
+862,862,2026-05-11 08:33:08,False,6,"Atenção! Cultura em risco! NPK irregular, corrigir solo urgente! Irrigação suspensa"
+863,863,2026-05-12 08:31:02,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+864,864,2026-05-13 08:38:40,False,1,"Umidade acima de 80%, irrigação suspensa"
+865,865,2026-05-14 08:16:16,False,1,"Umidade acima de 80%, irrigação suspensa"
+866,866,2026-05-15 08:05:47,False,5,"NPK irregular e umidade baixa, corrigir solo antes de irrigar. Irrigação suspensa"
+867,867,2026-05-16 08:29:22,False,1,"Umidade acima de 80%, irrigação suspensa"
+868,868,2026-05-17 08:13:17,False,7,"NPK irregular + pH fora do ideal, corrigir solo antes de irrigar. Irrigação suspensa"
